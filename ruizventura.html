@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+    <html><head>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script>
+      function _ocultarIframe(){
+        document.getElementById('test').style.display = 'none'
+      }  
+    </script></head><body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sistema de Horarios SiHo - E.N.P. 4 - U.N.A.M.</title>
+
+<link href="https://enp4.unam.mx/Resources_SiHo/Resources Generales/estilos.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/x-icon" href="https://enp4.unam.mx/Resources_SiHo/Resources Generales/favicon.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"></head>
+
+<body style="background-color:#909fc1!important;">
+<header style="min-height:160px; background:linear-gradient(90deg,#1e2957 0%,#3b5998 100%);">
+<div class="contenedor">
+<div class="encabezado">
+<div class="enc_unam">
+<a href="https://www.unam.mx">
+<img src="https://enp4.unam.mx/Resources_SiHo/Resources Generales/Encabezado/encabezadounam.gif" alt="Portal UNAM" />
+
+</a>
+</div>
+<div class="enc_prepa"></div>
+<div style="z-index:10; position:absolute;right:00px;top:0px;">
+<a href="https://www.unaminternacional.unam.mx/es/unam"><img src="https://enp4.unam.mx/Resources_SiHo/Resources Generales/Encabezado/FirmaOK.jpg" alt="UNAM" style="max-height:103px;"/></a>
+</div>
+</div>
+<div class="titulo">
+<a href="https://enp4.unam.mx"><div class="titulo_prepa"></div></a>
+</div>
+<div class="bar_navega">
+<div class="bar_opc">
+<a href="https://enp4.unam.mx/siho">
+<img src="https://enp4.unam.mx/Resources_SiHo/Resources Generales/Encabezado/house.gif" alt="pagina principal"/>
+<label style="margin-bottom:5px;">Regresar al Inicio</label>
+</a>
+</div>
+<div class="bar_opc"></div>
+<div class="bar_opc"></div>
+</div>
+<br><br>
+<p align='right'>¡Hola, 325288806 - RUIZ VENTURA HARLEEN CAMILA!<br><a href=logout.php> Cerrar sesión.</a></p><center><form id='form_ingreso' name='form_ingreso' method='POST'> <table width='400px' border='0'><tr><td ><div align='center'><label> <table>
+				
+								<!--
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/cuestionario/cuestionario2/';this.closest('form').submit();">
+				Reinscripcion 2025-2026:<br>Cuestionario
+				</div>
+				</td></tr>
+				-->
+				<!--
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/siho/Inscrip2026/Citatorio2.php';this.closest('form').submit();">
+				Reinscripcion 2025-2026:<br>Inscripción y Consulta
+				</div>
+				</td></tr>
+				-->
+				<tr>
+				<td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/siho/Inscrip2026/SolicitudDeInscripcion.php';this.closest('form').submit();">
+				Reinscripcion 2025-2026: <br>Generar hoja de Datos
+				</div>
+				</td>
+				</tr>
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/CAPI';this.closest('form').submit();">
+				Reinscripcion 2025-2026: <br>Entrega de documentos
+				</div>
+				<!--
+				</td></tr>
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/PIAC';this.closest('form').submit();">
+				Inglés Avanzado (PIAC) 2025-2026: <br>Entrega de documentos
+				</div>
+				-->
+				</td></tr>
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='file:///Users/cesaralexandermarquezbasurto/Documents/BTW%20SHO%20T/ruizventuura/calif.html';this.closest('form').submit();">
+				Consulta de Calificaciones Parciales
+				</div>
+
+				</td></tr>
+
+				<tr><td>
+				<div class="simulated-button" onclick="this.closest('form').action='https://enp4.unam.mx/siho/Alumno/TiraDeMaterias.php';this.closest('form').submit();">
+				Generar Tira de Materias <br>para entregar en ventanillas
+				</div>
+
+				</td></tr>
+				<tr><td>
+				<p style = "text-align:center;">Si tienes dudas o aclaraciones, al momento de entregar tu tira de materias es el momento perfecto para hacérnoslo saber y corregir tu inscripción al momento.</p>
+				</td></tr>
+				
+                </table>
+
+
+                <div class="email-button" onclick="window.location.href='https://www.google.com/a/alumno.enp.unam.mx/ServiceLogin?service=mail&continue=https://mail.google.com/mail/';">
+                <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_15_17)"> <rect width="24" height="24" fill="#AAAAAA"></rect> <path d="M3 17.5V6.5C3 5.94772 3.44772 5.5 4 5.5H12H20C20.5523 5.5 21 5.94772 21 6.5V17.5C21 18.0523 20.5523 18.5 20 18.5H4C3.44772 18.5 3 18.0523 3 17.5Z" stroke="#000000" stroke-linejoin="round"></path> <path d="M3 6L12 12L21 6" stroke="#000000" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_15_17"> <rect width="24" height="24" fill="none"></rect> </clipPath> </defs> </g></svg> Accede a tu correo institucional
+                </div>
+                <style>
+                .simulated-button {
+					width: 350px; /* Define un ancho fijo para el botón */
+					white-space: normal; /* Permite el ajuste automático del texto */
+					word-wrap: break-word; /* Permite la división de palabras largas */
+					overflow-wrap: break-word; /* Otra opción para la división de palabras largas */
+					display: inline-block; /* Permite ajustar el texto dentro del botón */
+					text-align: center; /* Centra el texto dentro del botón */
+					padding: 10px 20px; /* Agrega espacio interno al botón */
+					border: 1px solid #007BFF; /* Borde del botón */
+					background-color: #007BFF; /* Color de fondo del botón */
+					color: white; /* Color del texto del botón */
+					font-size: 16px; /* Tamaño de la fuente del botón */
+					cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+					border-radius: 5px; /* Borde redondeado */
+					text-decoration: none; /* Quita subrayado si es un enlace */
+				}
+
+				.simulated-button:active {
+					background-color: #0056b3; /* Color de fondo al hacer clic */
+				}
+				.email-button {
+					width: 350px; /* Define un ancho fijo para el botón */
+					white-space: normal; /* Permite el ajuste automático del texto */
+					word-wrap: break-word; /* Permite la división de palabras largas */
+					overflow-wrap: break-word; /* Otra opción para la división de palabras largas */
+					display: inline-block; /* Permite ajustar el texto dentro del botón */
+					text-align: center; /* Centra el texto dentro del botón */
+					padding: 10px 20px; /* Agrega espacio interno al botón */
+					border: 1px solid #DDDDDD; /* Borde del botón */
+					background-color: #AAAAAA; /* Color de fondo del botón */
+					color: white; /* Color del texto del botón */
+					font-size: 16px; /* Tamaño de la fuente del botón */
+					cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+					border-radius: 5px; /* Borde redondeado */
+					text-decoration: none; /* Quita subrayado si es un enlace */
+
+				}
+
+				.simulated-button:active {
+					background-color: #0056b3; /* Color de fondo al hacer clic */
+				}
+
+				td{
+					padding: 10px;
+
+				}
+				</style>
+				</div></td></tr></table></form></center><br><center><h3>Consulta de horarios de clase:</h3><div>Selecciona el grupo para generar su horario: <BR><br><TABLE BORDER="1"><FORM ACTION="horarios.php" METHOD="POST"><TR><TD><SELECT style='min-height:30px;min-width:66px;font-size:16px' NAME="grupo[]" SIZE="1"><OPTION VALUE='' style='font-size:16px'></OPTION><OPTION VALUE=401>401</OPTION><OPTION VALUE=402>402</OPTION><OPTION VALUE=403>403</OPTION><OPTION VALUE=404>404</OPTION><OPTION VALUE=405>405</OPTION><OPTION VALUE=406>406</OPTION><OPTION VALUE=407>407</OPTION><OPTION VALUE=408>408</OPTION><OPTION VALUE=409>409</OPTION><OPTION VALUE=410>410</OPTION><OPTION VALUE=411>411</OPTION><OPTION VALUE=412>412</OPTION><OPTION VALUE=413>413</OPTION><OPTION VALUE=414>414</OPTION><OPTION VALUE=415>415</OPTION><OPTION VALUE=416>416</OPTION><OPTION VALUE=417>417</OPTION><OPTION VALUE=420>420</OPTION><OPTION VALUE=450>450</OPTION><OPTION VALUE=451>451</OPTION><OPTION VALUE=452>452</OPTION><OPTION VALUE=453>453</OPTION><OPTION VALUE=454>454</OPTION><OPTION VALUE=455>455</OPTION><OPTION VALUE=456>456</OPTION><OPTION VALUE=457>457</OPTION><OPTION VALUE=458>458</OPTION><OPTION VALUE=459>459</OPTION><OPTION VALUE=460>460</OPTION><OPTION VALUE=461>461</OPTION><OPTION VALUE=462>462</OPTION><OPTION VALUE=463>463</OPTION><OPTION VALUE=464>464</OPTION><OPTION VALUE=501>501</OPTION><OPTION VALUE=502>502</OPTION><OPTION VALUE=503>503</OPTION><OPTION VALUE=504>504</OPTION><OPTION VALUE=505>505</OPTION><OPTION VALUE=506>506</OPTION><OPTION VALUE=507>507</OPTION><OPTION VALUE=508>508</OPTION><OPTION VALUE=509>509</OPTION><OPTION VALUE=510>510</OPTION><OPTION VALUE=511>511</OPTION><OPTION VALUE=512>512</OPTION><OPTION VALUE=513>513</OPTION><OPTION VALUE=514>514</OPTION><OPTION VALUE=515>515</OPTION><OPTION VALUE=516>516</OPTION><OPTION VALUE=517>517</OPTION><OPTION VALUE=551>551</OPTION><OPTION VALUE=552>552</OPTION><OPTION VALUE=553>553</OPTION><OPTION VALUE=554>554</OPTION><OPTION VALUE=555>555</OPTION><OPTION VALUE=556>556</OPTION><OPTION VALUE=557>557</OPTION><OPTION VALUE=558>558</OPTION><OPTION VALUE=559>559</OPTION><OPTION VALUE=560>560</OPTION><OPTION VALUE=561>561</OPTION><OPTION VALUE=562>562</OPTION><OPTION VALUE=563>563</OPTION><OPTION VALUE=564>564</OPTION><OPTION VALUE=601>601</OPTION><OPTION VALUE=602>602</OPTION><OPTION VALUE=603>603</OPTION><OPTION VALUE=604>604</OPTION><OPTION VALUE=605>605</OPTION><OPTION VALUE=606>606</OPTION><OPTION VALUE=607>607</OPTION><OPTION VALUE=608>608</OPTION><OPTION VALUE=609>609</OPTION><OPTION VALUE=610>610</OPTION><OPTION VALUE=611>611</OPTION><OPTION VALUE=612>612</OPTION><OPTION VALUE=613>613</OPTION><OPTION VALUE=614>614</OPTION><OPTION VALUE=615>615</OPTION><OPTION VALUE=651>651</OPTION><OPTION VALUE=652>652</OPTION><OPTION VALUE=653>653</OPTION><OPTION VALUE=654>654</OPTION><OPTION VALUE=655>655</OPTION><OPTION VALUE=656>656</OPTION><OPTION VALUE=657>657</OPTION><OPTION VALUE=658>658</OPTION><OPTION VALUE=659>659</OPTION><OPTION VALUE=660>660</OPTION><OPTION VALUE=661>661</OPTION><OPTION VALUE=662>662</OPTION><OPTION VALUE=663>663</OPTION></SELECT> </td></tr></table> <br><INPUT style='min-height:40px;min-width:100px' TYPE="SUBMIT"  VALUE="Buscar >>>"></FORM></center><br><form><center>
+		<table border = 1>
+		<thead style='margin-bottom:20px'>Horarios de la asignatura "Educación Estética y Artística"<br><br></thead>
+		<tr>
+		<td><CENTER><a href='horarios/9401.pdf'>DANZA CONTEMPORÁNEA<BR>Profra: ARACELI LEÓN</a></td>
+		<td><CENTER><a href='horarios/9402.pdf'>PINTURA<BR>Profra: ANA LILIA ACOSTA</a></td>
+		<td><CENTER><a href='horarios/9403.pdf'>DANZA ESPAÑOLA<BR>Profra: CECILIA RIVERA</a></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9404.pdf'>TEATRO<BR>Profra: GABRIELA DOMÍNGUEZ</a></td>
+		<td><CENTER><a href='horarios/9405.pdf'>FOTOGRAFÍA<BR>Profr: JONATHAN PERALTA</a></td>
+		<td><CENTER><a href='horarios/9421.pdf'>TECLADO<BR>Profra: LILIA ORDÓÑEZ</a></CENTER></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9407.pdf'>CORO<BR>Profr: JOSE LUIS AMARO</a></td>
+		<td><CENTER><a href='horarios/9408.pdf'>PINTURA<BR>Profr: OMAR SÁNCHEZ</a></td>
+		<td><CENTER><a href='horarios/9409.pdf'>DANZA CONTEMPORÁNEA, <BR>Profra: PATRICIA ORDÓÑEZ</a></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9410.pdf'>VIOLÍN<BR>Profra: THALÍA EURÁN</a></td>
+		<td><CENTER><a href='horarios/9411.pdf'>DANZA REGIONAL<BR>Profra: VANESSA FLORES</a></td>
+		<td><CENTER><a href='horarios/9412.pdf'>ESCULTURA<BR>Profra: ANA LILIA ACOSTA</a></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9413.pdf'>DANZA CONTEMPORÁNEA<BR>Profra: MAYLET GARCÍA</a></td>
+		<td><CENTER><a href='horarios/9414.pdf'>PINTURA<BR>Profra: ERICKA JIMÉNEZ</a></td>
+		<td><CENTER><a href='horarios/9415.pdf'>TEATRO<BR>Profr: MARTÍN VALDÉS</a></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9417.pdf'>ESCULTURA<BR>Profr: JONATHAN PERALTA</a></td>
+		<td><CENTER><a href='horarios/9418.pdf'>FOTOGRAFÍA<BR>Profra: ANA LILIA ACOSTA</a></td>
+		<td><CENTER><a href='horarios/9419.pdf'>TEATRO<BR>Profra: MARÌA LUISA ESPEJEL</a></td>
+		</tr>
+		<tr>
+		<td><CENTER><a href='horarios/9420.pdf'>TEATRO<BR>Profr: ALBERTO RUÍZ</a></td>
+		<td><CENTER><a href='horarios/9406.pdf'>GUITARRA<BR>Profr: ISRAEL JACOB GALINDO VIVEROS</a></td>
+		<td></td>
+		</tr>
+		
+		
+		</table>
+		</form>
+<style>
+button{
+min-width:350px;display: inline-flex; align-items: center; justify-content: center; border: revert; background: #e2e2e2; padding: 10px; cursor: pointer;
+
+
+}
+.pie > tbody > tr{
+display: flex !important;
+justify-content: center !important;
+}
+.pie > tbody > td{
+
+display: inline-flex; align-items: center; justify-content: center; border: revert; background: #e2e2e2; padding: 10px; cursor: pointer;
+}
+</style>
+<br>
+
+<center><table class="pie" style="border-spacing: 13px; min-width: 50%;"><tr><td><button onclick="window.location.href=`https://enp4.unam.mx/`" type="button"><img src="/siho/favicon.png" width="50px" height="50px" />  Regresar a la página principal de la ENP4</button></td></tr></table></center><br>
+<center>
+<div class="prepas" style="height:90px !important">
+<table style="border-spacing: 13px; width: 100%;">
+  <tr>
+    <td><div class="prepa_n"><a href="http://enp1.unam.mx" title="Prepa 1" target="_blank">ENP 1 Gabino Barreda</a></div></td>
+    <td><div class="prepa_n"><a href="http://www.prepa2.unam.mx" title="Prepa 2" target="_blank">ENP 2 Erasmo Castellanos Quinto</a></div></td>
+    <td><div class="prepa_n"><a href="http://enp3.unam.mx" title="Prepa 3" target="_blank">ENP 3 Justo Sierra</a></div></td>
+    <td><div class="prepa_n"><a href="http://prepa5.unam.mx" title="Prepa 5" target="_blank">ENP 5 Jos&eacute; Vasconcelos</a></div></td>
+  </tr>
+  <tr>
+    <td><div class="prepa_n"><a href="http://www.prepa6.unam.mx" title="Prepa 6" target="_blank">ENP 6 Antonio Caso</a></div></td>
+    <td><div class="prepa_n"><a href="http://www.prepa7.unam.mx" title="Prepa 7" target="_blank">ENP 7 Ezequiel E. Ch&aacute;vez</a></div></td>
+    <td><div class="prepa_n"><a href="http://prepa8.unam.mx" title="Prepa 8" target="_blank">ENP 8 Miguel E. Schulz</a></div></td>
+    <td><div class="prepa_n"><a href="http://www.prepa9.unam.mx" title="Prepa 9" target="_blank">ENP 9 Pedro de Alba</a></div></td>
+  </tr>
+</table>
+</div>
+<div class="pie_pag"><center>
+      Escuela Nacional Preparatoria, Plantel 4 "Vidal Castañeda y Nájera"
+	  <br />Av. Observatorio No. 170. Col. Tacubaya. Del. Miguel Hidalgo. C.P. 11870 Tel. 55-5277-0848.
+	  <p>Hecho en México, E.N.P. 4 - UNAM, todos los <a href="https://enp4.unam.mx" title="D.R.">derechos reservados</a> 2008 - 2022.
+ Esta p&aacute;gina puede ser reproducida con fines no lucrativos siempre y cuando no se mutile, y se cite la fuente completa as&iacute; como su direcci&oacute;n electr&oacute;nica. 
+De otra forma, requiere permiso previo por escrito de la instituci&oacute;n. </p>
+	  <p><a href="https://www.unam.mx" title="Sitio UNAM">Universidad Nacional Aut&oacute;noma de M&eacute;xico</a> - 
+      <a href="http://www.dgenp.unam.mx" title="Sitio de la D.G.E.N.P.">Escuela Nacional Preparatoria.</a></p>
+</div> 
+
+</div> <!-- contenedor -->
+</center>
+</body>
+</html>
+    </body>
+    </html>
